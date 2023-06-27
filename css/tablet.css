@@ -1,0 +1,66 @@
+/* Tablet and Under */ /* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px){
+    #nav-bar h1{
+        display: none;
+    }
+    #nav-bar p{
+        display: none;
+    }
+    .name{
+        display: none;
+    }
+    section > .container1{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding: 10px;
+    }
+    section > .container2{
+        display: grid;
+        grid-template-columns:50% 45%;
+        padding: 10px;
+       
+    }
+    .container-icon{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    section > .container5{
+        display: flex;
+        justify-content: center;
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 760px){
+    #nav-bar h1{
+        display: none;
+    }
+    #nav-bar p{
+        display: none;
+    }
+    .name{
+        display: none;
+    }
+    section > .container1{
+        display: grid;
+        grid-template-columns: 55% 55%;
+        padding: 10px;
+    }
+    section > .container2{
+        display: grid;
+        grid-template-columns:50% 45%;
+        padding: 10px;
+       
+    }
+    .container-icon{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        line-height: 1px;
+    }
+    section > .container5{
+        display: flex;
+        justify-content: center;
+        padding-left: 10px;
+    }
+}

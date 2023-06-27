@@ -1,0 +1,129 @@
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other 
+1. mobile<=767px */
+@media only screen and (max-width: 767px){
+    section > .container{
+        display: flex;
+        flex-direction: column;   
+        width: 100%;  
+    }
+    section > .container1{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    section > .container2{
+        display: grid;
+        grid-template-columns:80%;
+        padding: 10px;      
+    }
+    .hoppy_content{
+        text-align: left;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+    .container-icon{
+        display: grid;
+        grid-template-columns: 60%;    
+        width: 100%;
+    }
+    .container-certi{
+        display: grid;
+        grid-template-columns: 2fr;
+        column-gap: 1px;
+        row-gap: 1px;
+    }
+    .container-project{
+        display: grid;
+        grid-template-columns: 2fr;
+        column-gap: 2px;
+        row-gap: 2px;
+    }    
+    section > .container5{
+        display: flex;
+        justify-content: center;
+        padding-left: 10px;
+    }
+}
+@media only screen and (max-width: 576px){
+    section > .container{
+        display: flex;
+        flex-direction: column;   
+        width: 100%;  
+    }
+    section > .container1{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    section > .container2{
+        display: grid;
+        grid-template-columns:60%;
+        padding: 10px;      
+    }
+    .container-icon{
+        display: grid;
+        grid-template-columns: 60%;    
+        width: 100%;
+    }
+    .container-certi{
+        display: grid;
+        grid-template-columns: 2fr;
+        column-gap: 1px;
+        row-gap: 1px;
+    }
+    .container-project{
+        display: grid;
+        grid-template-columns: 2fr;
+        column-gap: 2px;
+        row-gap: 2px;
+    }    
+    section > .container5{
+        display: flex;
+        justify-content: center;
+        padding-left: 10px;
+    }
+}
+@media only screen and (max-width: 200px){
+    section > .container{
+        display: flex;
+        flex-direction: column;   
+        width: 100%;  
+    }
+    section > .container1{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    section > .container2{
+        display: grid;
+        grid-template-columns:60%;
+        padding: 10px;      
+    }
+    .container-icon{
+        display: grid;
+        grid-template-columns: 60% 60%;    
+        width: 100%;
+    }
+    .container-certi{
+        display: grid;
+        grid-template-columns: 2fr;
+        column-gap: 1px;
+        row-gap: 1px;
+    }
+    .container-project{
+        display: grid;
+        grid-template-columns: 2fr;
+        column-gap: 2px;
+        row-gap: 2px;
+    }    
+    section > .container5{
+        display: flex;
+        justify-content: center;
+        padding-left: 10px;
+    }
+}
+
+
+
+
+
